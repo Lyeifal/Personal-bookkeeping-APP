@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:background="@drawable/rounded_rectangle">
+    <TextView
+        android:id="@+id/string1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="总预算"
+        android:textColor="@color/white"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/total_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/total_yusuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginLeft="50dp"
+        >
+    </TextView>
+
+    <ProgressBar
+        android:id="@+id/pb_determinate"
+        android:layout_width="match_parent"
+        android:minHeight="8dp"
+        android:maxHeight="8dp"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:backgroundTint="@color/purple_200"
+        android:progressTint="@color/blue_03A9F4"
+        android:progress="0"
+        android:max="100"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/string1"
+        android:padding="10dp"
+        />
+
+
+</RelativeLayout>

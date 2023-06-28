@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:background="@drawable/rounded_rectangle">
+    <TextView
+        android:id="@+id/string2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="账单详情"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/item_account_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除"
+        android:textColor="@color/red_F01707"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/item_account_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_toLeftOf ="@id/item_account_del"
+        android:layout_marginRight="15dp"
+        >
+    </TextView>
+
+
+
+</RelativeLayout>
